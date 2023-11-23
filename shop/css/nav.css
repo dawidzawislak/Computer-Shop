@@ -1,0 +1,41 @@
+/* Navbar */
+#nav {
+	width: 100%;
+	padding: 5px 0;
+	background-color: #138DA0;
+	text-align: center;
+	border-top: 2px solid #083C44;
+	border-bottom: 2px solid #083C44;
+	position: relative;
+	z-index: 100;
+}
+
+#nav ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 18px;
+	line-height: 230%;
+	display: inline-block;
+}
+
+#nav ul a {
+	color: #FFFFFF;
+	text-decoration: none;
+	display: block;
+	transition: all .2s;
+}
+
+#nav ul > li {
+	float: left;
+	width: 166px;
+}
+
+#nav ul > li:hover {
+	background-color: #15A1B7;
+}
+
+#nav ul > li:hover > a {
+	color: #083C44;
+	transform: scale(1.05);
+}

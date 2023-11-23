@@ -1,0 +1,86 @@
+#config_h {
+    text-align: center;
+    padding: 15px 0;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+#prog {
+  color: #000;
+	padding: 15px 0;
+	font-size: 17px;
+	background-color: #138DA0;
+	border-bottom: 2px solid #083C44;
+	border-top: 2px solid #083C44;
+	width: 100%;
+	text-align: center;
+	position: relative;
+	z-index: 100;
+  line-height: 160%;
+}
+#prog_step {
+  margin-top: 4px;
+  font-size: 18px;
+  line-height: 100%;
+	color: #138DA0;
+	display: inline-block;
+	background-color: #083C44;
+	padding: 4px 8px;
+	border: 1px solid #083C44;
+	border-radius: 14px;
+}
+.prog_text {
+    display: inline-block;
+}
+
+.product2 {
+	border-top: 1px solid #262626;
+	height: 90px;
+}
+
+.product_img2 {
+	width: 70px;
+	height: 70px;
+	padding: 10px;
+	background-color: #fff;
+	float: left;
+}
+
+.product_desc2 {
+	width: 270px;
+	padding: 10px;
+	font-size: 16px;
+	float: left;
+}
+
+.product_price2 {
+	width: 70px;
+	height: 65px;
+	padding: 10px;
+	font-size: 14px;
+	background-color: #fff;
+	color: #262626;
+	padding-top: 15px;
+	float: left;
+}
+
+input[type=submit] {
+   background-color: #138DA0;
+   padding: 10px;
+   color: #FFF;
+   text-align: center;
+   border: none;
+   margin-left: 30px;
+   margin-bottom: 15px;
+   width: 120px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+input[type=submit]:hover{
+   background-color: #239DB0;
+}
+input[type=submit]:focus {
+	-webkit-box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+	-moz-box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+	box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+}

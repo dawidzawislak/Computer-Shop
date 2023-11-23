@@ -1,0 +1,40 @@
+.category_frame {
+	width: 50%;
+	overflow: hidden;
+	/*margin-bottom: 20px;*/
+	float: left;
+}
+
+.category {
+	text-align: center;
+	transition: all 0.35s;
+	padding: 15px 0;
+}
+
+.category:hover {
+	 transform: scale(1.06);
+	 background-color: rgba(220, 220, 220, 0.5);
+}
+
+.category_img {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.img_a:link {
+  text-decoration: none;
+  color: #FFF;
+  color: #000;
+}
+
+.img_a:visited {
+  text-decoration: none;
+  color: #FFF;
+  color: #000;
+}
+
+.img_a:hover {
+  text-decoration: none;
+  color: #DDD;
+  color: #000;
+}

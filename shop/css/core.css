@@ -1,0 +1,125 @@
+body {
+	background-image: url("../res/img/prism.png");
+	/* Background pattern from Toptal Subtle Patterns */
+	color: #FFFFFF;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+h2, h3 {
+	margin: 0;
+	padding: 0;
+}
+
+.clear {
+	clear:both;
+}
+
+#site {
+	width: 100%;
+}
+
+/*  ----- Scrollbar in webkit ----------------------------------------------- */
+body::-webkit-scrollbar {
+    width: 16px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #363636;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #565656;
+    border-radius: 9px;
+    border: 2px solid #363636;
+}
+
+body::-webkit-scrollbar-button {
+    display: none;
+}
+/*  ----- END: Scrollbar in webkit ------------------------------------------ */
+
+/*  ----- Header ------------------------------------------------------------ */
+#header {
+	width: 100%;
+	padding: 20px 0;
+	background-image: url("../res/img/2.jpg");
+	background-size: cover;
+}
+
+#logo {
+	width: 850px;
+	font-size: 54px;
+	margin: 0 auto;
+	color: #EAEAEA;
+    text-shadow: 1.5px 1.5px 1.5px #919191;
+	border-radius: 10px;
+	background: rgba(80,80,80,0.5);
+	padding: 3px;
+	padding-left: 50px;
+}
+
+#logo a {
+	text-decoration: none;
+	color: inherit;
+}
+
+#side {
+	min-width: 160px;
+	position: absolute;
+	right: 1vw;
+	top: 30px;
+	font-size: 20px;
+	border-radius: 10px;
+	text-align: right;
+	background: rgba(80,80,80,0.5);
+	padding: 8px;
+}
+
+#side a:link, #side a:visited {
+  text-decoration: none;
+  color: #138DA0;
+	font-size: 20px !important;
+}
+
+#side a:hover {
+  text-decoration: underline;
+  color: #53CDE0;
+}
+/*  ----- END: Header ------------------------------------------------------- */
+
+/*  ----- Other ------------------------------------------------------------- */
+#content {
+	background-color: #f9f9f9;
+	width: 1000px;
+	color: #000;
+	margin: 0 auto;
+	-webkit-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+	-moz-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+	box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+}
+
+#footer {
+	width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #363636;
+	color: #FFF;
+	padding: 10px 0;
+	clear: both;
+}
+
+
+/* Sticky classes */
+.sticky	{
+	width: 100%;
+	position: fixed !important;
+	left: 0 !important;
+	top: 0 !important;
+}
+
+.sticky + #content {
+  padding-top: 65px;
+}
